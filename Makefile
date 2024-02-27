@@ -33,4 +33,7 @@ fclean : clean
 	rm -rf $(TARGET)
 	rm -rf $(TARGET_LIB)
 
+tests_run:
+	fclean
+
 re : fclean all
